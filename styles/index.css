@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+/* common  */
+span {
+    color: #FF5400;
+}
+
+/* header styles  */
+header {
+    background: #FFF;
+}
+
+.nav-container {
+    padding: 52px 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-img {
+    width: 3rem;
+    height: 3.5rem;
+}
+
+.nav-title {
+    color: #131318;
+    font-size: 2.25rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+}
+
+.nav-content a {
+    text-decoration: none;
+    text-align: center;
+    margin-right: 2.75rem;
+    color: #424247;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/* banner style  */
+.banner {
+    margin: 0px 135px;
+    height: 500px;
+    /* padding: 100px; */
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.banner-title {
+    padding-top: 110px;
+
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+.banner-description {
+    color: #FFF;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.banner-input {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    /* margin-right: 185px; */
+}
+
+.banner-input input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 16px;
+}
+
+.btn-banner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    padding-left: 35px;
+}
