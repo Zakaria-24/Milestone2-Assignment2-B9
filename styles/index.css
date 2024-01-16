@@ -5,6 +5,86 @@
 span {
     color: #FF5400;
 }
+.primary-text{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(200px) translateY(-250px);
+}
+.maldives{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(170px) translateY(-180px);
+}
+.indonesia{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(170px) translateY(-180px);
+}
+.srilanka{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(90px) translateY(-200px);
+}
+.northAmerica{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(90px) translateY(-200px);
+}
+.kashmir{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(90px) translateY(-200px);
+}
+.bangladesh{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(170px) translateY(-170px);
+}
+.bandarban{
+    width: 276px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(170px) translateY(-170px);
+}
 
 /* header styles  */
 header {
@@ -52,8 +132,6 @@ header {
 /* banner style  */
 .banner {
     margin: 0px 135px;
-    /* height: 500px; */
-    /* padding: 100px; */
     text-align: center;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-position: center;
@@ -75,7 +153,6 @@ header {
 .banner-description {
     color: #FFF;
     margin-top: 24px;
-    /* margin-bottom: 48px; */
     font-family: 'Mulish', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -91,7 +168,6 @@ header {
     gap: 16px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    /* margin-right: 185px; */
 }
 
 .banner-input input {
@@ -119,17 +195,14 @@ header {
     gap: 0.5rem;
     width: 174px;
     height: 52px;
+    border: none;
     border-radius: 8px;
     background: #FF5400;
     padding-left: 35px;
 }
 
-/* .sec1{
-    width: 100%;
-    max-width: 1440px;
-} */
-/* popular tour  */
 
+/* popular tour  */
 .popular-tour {
     margin: 100px 135px;
 
@@ -178,12 +251,8 @@ header {
     border-radius: 16px;
 }
 
-/* Choose Your Destination style  */
-/* .sec2{
-    width: 100%;
-    max-width: 1440px;
-} */
 
+/* destination section  */
 .destination-container {
     margin: 0px 135px;
 }
@@ -209,8 +278,6 @@ header {
 
 /* img1  */
 .des-img1 {
-    width: 81.25%;
-    max-width: 1440px;
     margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -306,8 +373,6 @@ header {
 .choose-card1 {
     padding: 32px;
     width: 475px;
-    /* height: 284px; */
-    /* margin-right: 24px; */
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
 
@@ -317,7 +382,6 @@ header {
 .choose-card2 {
     padding: 32px;
     width: 475px;
-    /* height: 284px; */
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
 
@@ -327,11 +391,9 @@ header {
 .choose-card3 {
     padding: 32px;
     text-align: left;
-
     margin: 24px auto;
 
     width: 475px;
-    /* height: 284px; */
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
 
@@ -350,29 +412,23 @@ header {
 }
 
 .place-title {
-    /* width: 448px; */
-
     color: #131318;
 
     font-family: 'Mulish', sans-serif;
     font-size: 2.5rem;
     font-weight: 800;
-    /* line-height: 60px; */
 }
 
 .place-description {
-    /* width: 532px; */
     margin-top: 24px;
 
     color: #5A5A5D;
     font-family: 'Mulish', sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    /* line-height: 26px; */
 }
 
 .place-content>ul li {
-    /* width: 518px; */
     margin-top: 24px;
     margin-bottom: 16px;
     color: #131318;
@@ -380,15 +436,47 @@ header {
     font-family: 'Mulish', sans-serif;
     font-size: 1rem;
     font-weight: 700;
-    /* line-height: 26px; */
 }
+
+ /* MY CAPTURE:beauty of village section */
+.myCapture-container{
+    margin: 100px 135px;
+    text-align: center;
+    background: #FFF;
+}
+.myCapture-title{
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.myCapture-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.myCapture-img{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.myCapture-img img{
+    border-radius: 16px;
+    width: 475px;
+}
+
+
 
 /* newsletter style  */
 .newsletter-container {
     margin: 0px 135px;
 
     display: flex;
-    /* grid-template-columns: 300px 400px; */
     align-items: center;
     gap: 16px;
 }
@@ -477,16 +565,17 @@ header {
     text-align: center;
 
     width: 300px;
-    height: 120px;
-    position: absolute;
+    height: 75px;
 
-    transform: rotate(-19.628deg);
+    position: absolute;
+    transform: scale(1) rotate(-19.628deg) translateX(205px)
+    translateY(-100px);
 }
 
 /* footer styles  */
 footer {
     height: 502px;
-    margin-top: 100px;
+    margin: 100px 0px 0px;
     background: rgba(19, 19, 24, 0.05);
     padding: 110px;
     text-align: center;
@@ -525,8 +614,8 @@ footer img {
 }
 
 footer hr {
-    width: 872px;
-    margin-top: 50px;
+    /* width: 872px; */
+    margin-top: 50px 280px;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
 }
@@ -537,4 +626,380 @@ footer hr {
     font-family: 'Mulish', sans-serif;
     font-size: 1rem;
     font-weight: 300;
+}
+
+
+
+
+/* MEDIA QUERY FOR MOBILE  */
+
+@media screen and (max-width: 600px) {
+
+    .destination-container,
+    .choose-container,
+    .place-container,
+    .newsletter-container,
+    .myCapture-container {
+        margin: 24px 20px;
+    }
+    .nav-title,
+    .tour-title,
+    .destination-title,
+    .choose-title,
+    .place-title,
+    .newsletter-title,
+    .footer-title-container,
+    .myCapture-title  {
+        font-size: 1.25rem;
+    }
+    .tour-description,
+    .destination-description,
+    .choose-description,
+    .place-description,
+    .newsletter-description,
+    .footer-description,
+    .myCapture-description {
+        font-size: 0.85rem;
+    }
+
+    /* nav  */
+    .nav-container {
+        padding: 16px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-content a{
+        flex-direction: row;
+        margin-right: 1rem;
+    }
+
+    .nav-img {
+        width: 1.75rem;
+        height: 2rem;
+    }
+
+
+
+    /* banner  */
+    .banner {
+        margin: 0 20px;
+
+    }
+
+    .banner-input {
+        flex-direction: column;
+        width: 350px;
+        align-items: center;
+    }
+
+    .banner-input input{
+        width: 255px;
+        height: 52px;
+    }
+    .banner-input select{
+        width: 260px;
+        height: 52px;
+    }
+    .banner-input button{
+        width: 260px;
+        height: 52px;
+    }
+
+
+    /* main section  */
+
+
+    /* tour section  */
+    .popular-tour{
+        margin: 24px 20px;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+   /* destination section   */
+   .des-img1,
+   .des-img2,
+   .des-img3,
+   .myCapture-img {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+   }
+
+   #img1,
+   #img2,
+   #img3,
+   #img4,
+   #img5,
+   #img6,
+   #img7,
+   .newsletter-content{
+   width: 540px;
+  }
+
+   /* choose us section  */
+   .choose-card-combined,
+   .place-container,
+   .newsletter-container{
+    flex-direction: column;
+    gap: 16px;
+   }
+   .choose-card3{
+    margin-top: 16px;
+   }
+
+   /* place section  */
+   .place-img img{
+    width: 540px;
+   }
+
+   /* MY CAPTURE:beauty of village section */
+   .myCapture-img img{
+    width: 540px;
+   }
+
+   /* newsletter section  */
+
+   /* footer section  */
+   footer{
+    margin-top: 24px;
+   }
+}
+
+
+
+
+/* MEDIA QUERY FOR DESKTOP */
+@media screen and (min-width: 992px){
+
+    .destination-container,
+    .choose-container,
+    .place-container,
+    .newsletter-container,
+    .myCapture-container {
+        margin: 40px 48px;
+    }
+    .nav-title,
+    .tour-title,
+    .destination-title,
+    .choose-title,
+    .place-title,
+    .newsletter-title,
+    .footer-title-container,
+    .myCapture-title  {
+        font-size: 2.25rem;
+    }
+    .tour-description,
+    .destination-description,
+    .choose-description,
+    .place-description,
+    .newsletter-description,
+    .footer-description,
+    .myCapture-description {
+        font-size: 1rem;
+    }
+
+    /* nav  */
+    .nav-container {
+        padding: 40px 48px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-content a{
+        flex-direction: row;
+        margin-right: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .nav-img {
+        width: 2rem;
+        height: 2.5rem;
+    }
+
+
+
+    /* banner  */
+    .banner {
+        margin: 0 40px;
+
+    }
+
+    .banner-input {
+        flex-direction: column;
+        width: 550px;
+        align-items: center;
+    }
+
+    .banner-input input{
+        width: 500px;
+        height: 80px;
+    }
+    .banner-input select{
+        width: 520px;
+        height: 80px;
+    }
+    .banner-input button{
+        width: 520px;
+        height: 80px;
+    }
+
+
+    /* main section  */
+
+
+    /* tour section  */
+    .popular-tour{
+        margin: 40px 48px;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .tour-content{
+        width: 820px;
+    }
+
+   /* destination section   */
+   .des-img1,
+   .des-img2,
+   .des-img3,
+   .myCapture-img {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 32px;
+   }
+
+   #img1,
+   #img2,
+   #img3,
+   #img4,
+   #img5,
+   #img6,
+   #img7,
+   .newsletter-content,
+   .tour-img{
+   width: 900px;
+   height: 500px;
+  }
+
+   /* choose us section  */
+   .choose-card-combined,
+   .place-container,
+   .newsletter-container{
+    flex-direction: column;
+    gap: 32px;
+   }
+   .choose-card1{
+    margin-top: 40px;
+    width: 820px;
+   }
+   .choose-card2{
+    margin-top: 40px;
+    width: 820px;
+   }
+   .choose-card3{
+    margin-top: 40px;
+    width: 820px;
+   }
+
+   /* place section  */
+   .place-img img{
+    width: 900px;
+   }
+
+   /* MY CAPTURE:beauty of village section */
+   .myCapture-img img{
+    width: 900px;
+   }
+
+   /* newsletter section  */
+.newsletter-content{
+    width: 900px;
+}
+.newsletter-img img{
+    width: 820px;
+}
+
+   /* footer section  */
+   footer{
+    margin-top: 40px;
+   }
+
+
+   .primary-text{
+    width: 476px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(300px) translateY(-400px);
+}
+.maldives{
+    width: 476px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(350px) translateY(-320px);
+}
+.indonesia{
+    width: 476px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(400px) translateY(-320px);
+}
+.srilanka{
+    width: 476px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(400px) translateY(-320px);
+}
+.northAmerica{
+    width: 476px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(400px) translateY(-320px);
+}
+.kashmir{
+    width: 476px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(400px) translateY(-320px);
+}
+.bangladesh{
+    width: 476px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(350px) translateY(-250px);
+}
+.bandarban{
+    width: 476px;
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+
+    position: absolute;
+    transform: scale(1) translateX(350px) translateY(-250px);
+}
 }
