@@ -97,6 +97,16 @@ header {
 .banner-input input {
     width: 174px;
     height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 16px;
+}
+
+.banner-input select {
+    width: 174px;
+    height: 52px;
+    border: none;
     border-radius: 8px;
     background: #FFF;
     padding-left: 16px;
@@ -328,7 +338,52 @@ header {
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* place style  */
+.place-container {
 
+    background: #FFF;
+    margin: 100px 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+
+.place-title {
+    /* width: 448px; */
+
+    color: #131318;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    /* line-height: 60px; */
+}
+
+.place-description {
+    /* width: 532px; */
+    margin-top: 24px;
+
+    color: #5A5A5D;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    /* line-height: 26px; */
+}
+
+.place-content>ul li {
+    /* width: 518px; */
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #131318;
+
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    /* line-height: 26px; */
+}
+
+/* newsletter style  */
 .newsletter-container {
     margin: 0px 135px;
 
@@ -468,13 +523,15 @@ footer img {
     width: 174.322px;
     height: 24px;
 }
-footer hr{
+
+footer hr {
     width: 872px;
     margin-top: 50px;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
 }
-.footer-copyright{
+
+.footer-copyright {
     margin-top: 50px;
     color: #131318;
     font-family: 'Mulish', sans-serif;
